@@ -65,7 +65,7 @@ contract Owned {
 }
 
 
-contract FixedSupplyToken is ERC20Interface, Owned {
+contract BaseToken is ERC20Interface, Owned {
     using SafeMath for uint;
 
     string public symbol;
